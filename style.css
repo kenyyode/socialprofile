@@ -5,6 +5,11 @@ body {
     background-color: hsl(0, 0%, 8%);
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .outer-container{
@@ -12,7 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 1em;
-    margin: 8% 0em 1em 0em;
+    margin: 0% 0em 1em 0em;
 
 }
 
@@ -73,3 +78,9 @@ img {
     font-size: small;
 
 }
+
+/* Media Query for Smaller Screens */
+@media (max-width: 600px) {
+    .outer-container {
+        margin: 20% 0em 1em 0em; /* Increase top margin for better centering */
+    }
