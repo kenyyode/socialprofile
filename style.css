@@ -82,5 +82,5 @@ img {
 /* Media Query for Smaller Screens */
 @media (max-width: 600px) {
     .outer-container {
-        margin: 20% 0em 1em 0em; /* Increase top margin for better centering */
+        margin: 0% 0em 1em 0em; /* Increase top margin for better centering */
     }
